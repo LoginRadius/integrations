@@ -1,0 +1,11 @@
+.lr_disqus_sso_popup {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.lr_disqus_sso_popup #login{
+	margin: 0 auto;
+    display: table;
+    padding: 30px;
+}
