@@ -140,7 +140,7 @@ $SL.util.ready(function() {
 	function exchangeMultipassToken(lrtoken, handle){
 
 		//var url = "https://dev-www.loginradius.com/shopifyauth.ashx?lr-token=" + lrtoken;
-        var url = "http://shp.worldvision.ca/shopifyconnector/shopifyauth.ashx?lr-token=" + lrtoken;
+        var url = "http://<your Web Location>/shopifyconnector/shopifyauth.ashx?lr-token=" + lrtoken;
 		
 		if(getParameterByName("checkout_url")){
 			url = url + "&return_url="+getParameterByName("checkout_url");	
