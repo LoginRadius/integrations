@@ -13,6 +13,7 @@ define('DISQUS_PUBLIC_KEY', '{{ PUBLIC KEY HERE }}');
 define('DISQUS_SHORTNAME', '{{ SHORTNAME HERE}}');
 
 // LoginRadius API KEY found on your LoginRadius Dashboard https://secure.loginradius.com/account#dashboard
+define('LR_HOSTED_PAGE', TRUE);
+define('LR_APP_NAME', '{{ LOGINRADIUS APP NAME HERE }}');
 define('LR_API_KEY', '{{ LOGINRADIUS API KEY HERE }}');
-
-?>
+define('LR_API_SECRET', '{{ LOGINRADIUS SECRET KEY HERE }}');

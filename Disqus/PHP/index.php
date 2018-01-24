@@ -1,10 +1,10 @@
 <?php
-	require_once('lib/disqus/disqus-sso.php');
+    require_once('lib/disqus/disqus-sso.php');
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Disqus integration with LoginRadius Social Login (PHP)</title>
+            <title>Disqus integration with LoginRadius Social Login (PHP)</title>
 	</head>
 	<body>
 		<div id="disqus_thread"></div>
@@ -26,6 +26,13 @@
 				          width:  "500", // Width of the login popup window. Default is 800.
 				          height: "400" // Height of the login popup window. Default is 400.
 				    };
+                                    <?php
+                                    if(LR_HOSTED_PAGE){?>
+                                        this.sso.url = 'https://<?php echo LR_APP_NAME;?>.hub.loginradius.com/auth.aspx?action=login&return_url=http://<?php echo $_SERVER['HTTP_HOST'] . str_replace( 'index.php','', $_SERVER['PHP_SELF'] ); ?>index.php';
+                                        this.sso.logout = 'https://<?php echo LR_APP_NAME;?>.hub.loginradius.com/auth.aspx?action=logout&return_url=http://<?php echo $_SERVER['HTTP_HOST'] . str_replace( 'index.php','', $_SERVER['PHP_SELF'] ); ?>logout.php';
+                                    <?php 
+                                    }
+                                    ?>
 			}
 		</script>
 		<script type="text/javascript">

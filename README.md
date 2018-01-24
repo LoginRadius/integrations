@@ -11,8 +11,3 @@ Disqus is a commenting platform enabling website discussions and communities. Th
 ### Instructions
 For additional help with the setup of this Disqus sample please see [this](http://apidocs.loginradius.com/docs/disqus) document
 
-## Livefyre Commenting with Social Login (PHP)
-Livefyre commenting is a commenting platform available from http://livefyre.com. In this sample integration Livefyre commenting has been integrated with LoginRadius Social Login.
-
-### Instructions
-For additional help with the setup of this Livefyre Commenting sample please see [this](http://apidocs.loginradius.com/docs/livefyre-commenting) document
