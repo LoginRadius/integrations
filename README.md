@@ -9,5 +9,5 @@ This repository contains the current sample integrations that have been develope
 Disqus is a commenting platform enabling website discussions and communities. This sample integration is an example of a Disqus implementation with LoginRadius Social Login.
 
 ### Instructions
-For additional help with the setup of this Disqus sample please see [this](http://apidocs.loginradius.com/docs/disqus) document
+For additional help with the setup of this Disqus sample please see [this](https://docs.loginradius.com/api/v2/integrations/disqus) document
 
